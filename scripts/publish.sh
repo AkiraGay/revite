@@ -8,10 +8,10 @@ if [ -z "$REMOTE" ]; then
 fi
 
 # Remote Directory
-REMOTE_DIR=/root/revite
+REMOTE_DIR=/root/deployments/revite
 
 # Post-install script
-POST_INSTALL="pm2 restart revite"
+POST_INSTALL=""
 
 # Assets
 export REVOLT_SAAS=https://github.com/revoltchat/assets
